@@ -1,0 +1,19 @@
+{
+  "name": "vulnerable-package-demo",
+  "version": "1.0.0",
+  "description": "A demo project with intentional vulnerabilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lodash": "4.17.15",
+    "express": "4.16.0",
+    "jquery": "3.3.1"
+  },
+  "devDependencies": {
+    "debug": "2.6.8"
+  },
+  "author": "",
+  "license": "ISC"
+}
